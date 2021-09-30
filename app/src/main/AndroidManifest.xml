@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fleetprotry1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FleetProTry1">
+        <activity android:name=".COP" />
+        <activity android:name=".COD" />
+        <activity android:name=".VehiUpgrades" />
+        <activity android:name=".DeliveryStatus" />
+        <activity android:name=".PickupStatus" />
+        <activity android:name=".SendMsg" />
+        <activity android:name=".Message" />
+        <activity android:name=".DeliveryInfo" />
+        <activity android:name=".PickupInfo" />
+        <activity android:name=".MyAccount" />
+        <activity android:name=".Notifications" />
+        <activity android:name=".Wallet" />
+        <activity android:name=".Vehicle" />
+        <activity android:name=".Pickups" />
+        <activity android:name=".Deliveries" />
+        <activity android:name=".ChangePswd" />
+        <activity android:name=".PasswordUpdated" />
+        <activity android:name=".NewPswdAcnt" />
+        <activity android:name=".ForgotPswdAcnt" />
+        <activity android:name=".NewPassword" />
+        <activity android:name=".VehicleInfo" />
+        <activity android:name=".YourInfo" />
+        <activity android:name=".ForgotPswd" />
+        <activity android:name=".Home" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".Login" />
+        <activity android:name=".Start" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

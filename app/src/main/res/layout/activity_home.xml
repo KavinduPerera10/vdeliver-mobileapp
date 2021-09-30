@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="@drawable/home_bg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/noti"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="356dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/notifications"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="94dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/hi"
+        android:textColor="@color/DarkBlue"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/haveagoodday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/have_a_good_day"
+        android:textColor="@color/DarkBlue"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/deliveries"
+        android:layout_width="102dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/deliveries"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/pickups"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/pickups"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/vehicle"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="385dp"
+        android:src="@drawable/vehicles"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/wallet"
+        android:layout_width="102dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="249dp"
+        android:layout_marginTop="385dp"
+        android:src="@drawable/wallet"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/dlvryBtn"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/deliveries"
+        android:textColor="@color/DarkBlue"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="@color/background" />
+
+    <Button
+        android:id="@+id/pkupBtn"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="238dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/pickups"
+        android:textColor="@color/DarkBlue"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="@color/background" />
+
+    <Button
+        android:id="@+id/vehiBtn"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="485dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/vehicle"
+        android:textColor="@color/DarkBlue"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="@color/background" />
+
+    <Button
+        android:id="@+id/waltBtn"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="238dp"
+        android:layout_marginTop="485dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/wallet"
+        android:textColor="@color/DarkBlue"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="@color/background" />
+
+    <Button
+        android:id="@+id/message"
+        android:layout_width="291dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/message_warehouse"
+        android:textColor="@color/DarkBlue"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="@color/background" />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="291dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="595dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/call_warehouse"
+        android:textColor="@color/DarkBlue"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="@color/background" />
+
+    <ImageView
+        android:id="@+id/homerect"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="670dp"
+        android:src="@drawable/home_rect"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="43.83dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="675dp"
+        android:src="@drawable/home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/maprect"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="670dp"
+        android:src="@drawable/map_rect"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="43.83dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="675dp"
+        android:src="@drawable/map"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/acntrect"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="287dp"
+        android:layout_marginTop="670dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/map_rect"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/acnt"
+        android:layout_width="43.83dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="314dp"
+        android:layout_marginTop="675dp"
+        android:src="@drawable/account"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

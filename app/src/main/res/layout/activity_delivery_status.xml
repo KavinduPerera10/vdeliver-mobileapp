@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Deliveries"
+    android:background="@drawable/home_bg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/back_arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dlvryID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="99dp"
+        android:layout_marginStart="37dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/dxxxxxx"
+        android:textColor="@color/DarkBlue"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/dlvrd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/delivered"
+        android:textColorHighlight="@color/DarkBlue"
+        android:textColorLink="@color/DarkBlue"
+        android:textSize="24sp"
+        android:theme="@style/colouredCheckBox"
+        app:buttonTint="@color/DarkBlue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/pstpond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/postponed"
+        android:textColorHighlight="@color/DarkBlue"
+        android:textColorLink="@color/DarkBlue"
+        android:textSize="24sp"
+        android:theme="@style/colouredCheckBox"
+        app:buttonTint="@color/DarkBlue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cancl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="350dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/cancelled"
+        android:textColorHighlight="@color/DarkBlue"
+        android:textColorLink="@color/DarkBlue"
+        android:textSize="24sp"
+        android:theme="@style/colouredCheckBox"
+        app:buttonTint="@color/DarkBlue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/homerect"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="670dp"
+        android:src="@drawable/map_rect"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="43.83dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="675dp"
+        android:src="@drawable/home"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/maprect"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="287dp"
+        android:layout_marginTop="670dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/map_rect"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="43.83dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="314dp"
+        android:layout_marginTop="675dp"
+        android:src="@drawable/map"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="575dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/save"
+        android:textColor="@color/DarkBlue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="@color/background" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
