@@ -19,7 +19,7 @@ public class Start extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_start);
-
+// hfcxgjvkbl 
         Button signInButton = (Button) findViewById(R.id.button);
         Button signUpButton = (Button) findViewById(R.id.button2);
 
